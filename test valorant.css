@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 173, 231);
+}
+
+header{
+    width: 100%;
+}
+.logo-valorant{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 15px;
+
+}
+
+nav a{
+    background-color: rgb(247, 173, 231);
+    border: 1px solid black;
+    border-radius: 8px ; /*arrondi des coins*/
+    padding: 8px 18px; /*espace a l'interieur haut 8px droite 18px*/
+    font-weight: bold; /*gras*/
+    cursor: pointer; /*changement de curseur quand passage dessus*/
+    gap: 20px;
+    text-decoration: none;
+} 
+
+nav a:hover{
+    background-color: rgb(158, 152, 152);
+}
+
+.en-tete{
+    display: flex; /*active le flex pour aligner*/
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.en-tete{
+    display: flex;
+    justify-content: center;
+    width : auto; /*changer la taille de la bannière*/
+    height: auto;
+    object-fit: cover;
+}
+
+.explications{
+    font-size: large;
+    width: 45%;
+    margin-left: 40px;
+
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+.perso{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    border-radius: 8px;
+}
+
+
+
+.explications h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px; /*espace entre lignes*/
+    margin-bottom:  15px; /*laisser de l'espace pour evite r que le paragraphe soit collé au titre*/
+
+}
+
+.explications p{
+    margin-bottom: 12px;
+}
+
+
+
